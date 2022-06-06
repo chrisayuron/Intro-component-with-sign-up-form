@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container">
+  <section>
+  <h1>Learn to code by watching others</h1>
+  <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+    but understanding how developers think is invaluable. </p>
+  </section>
+  <section>
+    <div class="offer"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+    <div class="form-container">
+    <form action="#">
+      
+        <input type="text" id="first" placeholder="First Name">
+        <div class="error-container" id="error-first">
+          <!-- <img class="icon-error" src="./images/icon-error.svg">        
+          <p class="error">First Name cannot be empty</p> -->
+          <!-- YA SE CONFIGURÓ LA VISUALIZACIÓN DEL ERROR, AHORA ESTE SERÁ AÑADIDO DESDE JAVASCRIPT -->
+        </div>
+      <input type="text" id="last" placeholder="Last Name">
+      <div class="error-container" id="error-last">
+       
+        </div>
+      <input type="email" id="email" placeholder="Email">
+      <div class="error-container" id="error-email">
+     
+      </div>
+      <input type="password" id="password" placeholder="Password">
+      <div class="error-container" id="error-password">
+   
+      </div>
+      <input id="boton" type="submit" value="Claim your free trial">
+      <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>    </form>
+  </div>
+  </section>
+</div>
+
+  
+
+  
+
+  
+   
+  
+  
+
+ 
+
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ronald Rojas Newball</a>.
+    </p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
